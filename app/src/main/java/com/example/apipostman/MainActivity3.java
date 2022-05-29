@@ -27,9 +27,14 @@ public class MainActivity3 extends AppCompatActivity {
         String rasm=intent.getStringExtra("rasm");
         String description=intent.getStringExtra("description");
         Double price=intent.getDoubleExtra("price",0);
+<<<<<<< HEAD
 
         Glide.with(MainActivity3.this).load(rasm).into(imageView);
         textView1.setText("Mahsulot narhi : "+name);
+=======
+        Glide.with(MainActivity3.this).load(rasm).into(imageView);
+        textView1.setText("Mahsulot nomi : "+name);
+>>>>>>> 5bca907 (xfbfx)
         textView3.setText("Mahsulot haqida batafsil : "+description);
         textView4.setText("Narhi : "+price);
     }

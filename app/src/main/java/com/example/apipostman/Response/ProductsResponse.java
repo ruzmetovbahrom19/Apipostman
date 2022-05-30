@@ -7,6 +7,7 @@ public class ProductsResponse {
     String photoUrl;
     String description;
     Double price;
+    //axaxa
 
     public ProductsResponse() {
     }
